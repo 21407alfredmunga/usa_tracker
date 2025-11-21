@@ -61,15 +61,6 @@ def main():
         st.title("Debt Tracker")
         st.caption("Official Data")
         st.markdown("---")
-        
-        # Navigation
-        page = st.radio(
-            "Navigation",
-            ["📊 Dashboard", "📈 Analysis", "📄 Reports"],
-            label_visibility="collapsed"
-        )
-        
-        st.markdown("---")
         st.subheader("DATE RANGE")
         
         # Date range selector
